@@ -766,6 +766,7 @@ img {
 
 .footer-button-wrap {
   position: relative;
+  cursor: pointer;
 }
 
 .footer-form-icon {
