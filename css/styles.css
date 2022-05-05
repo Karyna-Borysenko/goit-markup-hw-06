@@ -159,8 +159,7 @@ img {
   align-items: center;
   color: var(--body-color);
 
-  transition: color var(--transition-duration) var(--transition-timing-function),
-    fill var(--transition-duration) var(--transition-timing-function);
+  transition: color var(--transition-duration) var(--transition-timing-function), fill var(--transition-duration) var(--transition-timing-function);
 }
 
 .header-mail-icon,
@@ -397,9 +396,7 @@ img {
   align-items: center;
   color: var(--icon-color);
 
-  transition: color var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration)
-      var(--transition-timing-function);
+  transition: color var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .team-instagram-icon,
@@ -446,8 +443,7 @@ img {
   padding: 16px 32px;
   color: var(--icon-color);
 
-  transition: color var(--transition-duration) var(--transition-timing-function),
-    border-color var(--transition-duration) var(--transition-timing-function);
+  transition: color var(--transition-duration) var(--transition-timing-function), border-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .clients-icon {
@@ -488,10 +484,7 @@ img {
   border-style: none;
   color: var(--main-color);
 
-  transition: color var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration)
-      var(--transition-timing-function),
-    box-shadow var(--transition-duration) var(--transition-timing-function);
+  transition: color var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function), box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
 .portfolio-filter-item:not(:last-child) {
@@ -531,8 +524,7 @@ img {
   max-width: 370px;
   display: block;
 
-  transition: box-shadow var(--transition-duration)
-    var(--transition-timing-function);
+  transition: box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
 .portfolio-card:hover,
@@ -678,9 +670,7 @@ img {
   align-items: center;
   color: var(--used-color);
 
-  transition: color var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration)
-      var(--transition-timing-function);
+  transition: color var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .footer-instagram-icon,
@@ -706,9 +696,7 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 
-  transition: opacity var(--transition-duration)
-      var(--transition-timing-function),
-    visibility var(--transition-duration) var(--transition-timing-function);
+  transition: opacity var(--transition-duration) var(--transition-timing-function), visibility var(--transition-duration) var(--transition-timing-function);
 }
 
 .backdrop.is-hidden .modal {
@@ -743,10 +731,15 @@ img {
   background-color: var(--used-color);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
-.modal-icon-close {
-  display: block;
+.modal-button-close:hover,
+.modal-button-close:focus {
+  fill: var(--accent-color);
 }
 
 .is-hidden {
@@ -779,8 +772,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
-  transition: border-color var(--transition-duration)
-    var(--transition-timing-function);
+  transition: border-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .modal-input:hover,
@@ -819,8 +811,7 @@ img {
   resize: none;
   outline: none;
 
-  transition: border-color var(--transition-duration)
-    var(--transition-timing-function);
+  transition: border-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .modal-text::placeholder {
