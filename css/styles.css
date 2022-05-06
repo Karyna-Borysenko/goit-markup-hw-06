@@ -7,6 +7,7 @@
   --body-color: #757575;
   --border-color: #eeeeee;
   --icon-color: #afb1b8;
+  --footer-bg-color:#2f303a;
   --main-gap: 30px;
   --title-gap: 50px;
   --transition-duration: 250ms;
@@ -80,7 +81,7 @@ img {
 /*------------------------------------------------------------------Шапка сайта-header------------------------------------------------------------------*/
 
 .header {
-  border-bottom: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container,
@@ -108,7 +109,7 @@ img {
 }
 
 .header-logo-color {
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 .header-list-item:not(:last-child),
@@ -193,7 +194,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 
-  background-color: rgb(196, 196, 196);
+  background-color: #c4c4c4;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -261,7 +262,7 @@ img {
   padding: 25px 100px;
 
   width: 270px;
-  background-color: rgb(245, 244, 250);
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 
@@ -328,7 +329,7 @@ img {
 /*------------Секция Наша команда------------*/
 
 .team {
-  background-color: rgb(245, 244, 250);
+  background-color: #f5f4fa;
   text-align: center;
 }
 
@@ -580,16 +581,14 @@ img {
 /*------------------------------------------------------------------Подвал сайта-Footer------------------------------------------------------------------*/
 
 .footer {
-  background-color: rgb(47, 48, 58);
+  background-color: var(--footer-bg-color);
 }
 
 .footer .container {
-  display: flex;
-}
-
-.footer-contacts {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -639,8 +638,6 @@ img {
 
 .footer-join {
   margin-left: 70px;
-  padding-top: 72px;
-  padding-bottom: 100px;
 }
 
 .footer-join-title {
@@ -690,9 +687,7 @@ img {
 /*------------Форма в Footer------------*/
 
 .footer-form-field{
-  margin-left: 70px;
-  padding-top: 72px;
-  padding-bottom: 94px;
+ margin-left: auto;
 }
 
 .footer-form-text {
