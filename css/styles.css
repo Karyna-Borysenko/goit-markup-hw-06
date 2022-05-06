@@ -962,6 +962,14 @@ img {
   transition: background-color var(--transition-duration) var(--transition-timing-function);
 }
 
+.label-checkbox:hover .checkbox-icon-wrap {
+  border: 2px solid var(--accent-color);
+}
+
+.modal-checkbox:focus +.label-checkbox .checkbox-icon-wrap {
+  border: 2px solid var(--accent-color);
+}
+
 .checkbox-icon {
   fill: transparent;
   transition: fill var(--transition-duration) var(--transition-timing-function);
